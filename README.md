@@ -10,6 +10,16 @@ Türkiye / İzmir için kullanılan bina sınırları shapefile verileri, HERE M
 📌 Lisans kısıtları nedeniyle ham görüntüler ve shapefile verileri bu repoda paylaşılamamakta, ancak araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler.
 
 
+Projede bina ayak izi çıkarımı için farklı derin öğrenme mimarileri test edilmiştir:
+
+*U-Net++ → Geleneksel U-Net yapısının geliştirilmiş bir versiyonu olup, yoğun skip-connection yapısıyla daha hassas segmentasyon sağlamaktadır.
+*DeepLabV3+ → Atrous (dilated) konvolüsyon ve ASPP (Atrous Spatial Pyramid Pooling) katmanları sayesinde çok ölçekli özellikleri etkili şekilde öğrenmektedir.
+*PSPNet → Pyramid Pooling Module kullanarak bağlamsal bilgiyi artırmakta ve farklı ölçeklerdeki yapıları daha doğru yakalamaktadır.
+
+Bu modeller hem doğruluk açısından karşılaştırılmış hem de açıklanabilir yapay zekâ (XAI) yöntemleriyle karar mekanizmaları analiz edilmiştir.
+
+
+
 XAI-Based Building Footprint Extraction from VHR Imagery 
 
 This project, supported by TÜBİTAK 1002, focuses on the automatic extraction of building footprints from very high-resolution satellite and aerial imagery. State-of-the-art deep learning models such as U-Net++, DeepLabV3+, PSPNet, and DeepSwinLite were applied, and explainable artificial intelligence (XAI) techniques were employed to analyze the decision-making processes of these models. The results reveal performance differences across various urban patterns and demonstrate that the proposed approaches can be reliably used in applications such as urban planning, disaster management, and sustainable city development.
@@ -18,3 +28,11 @@ Two datasets were utilized in this project: SPOT 6/7 (France, Pyrénées-Orienta
 Building footprint shapefiles for France / Pyrénées-Orientales are provided by the Institut National de l'Information Géographique et Forestière (IGN) → https://geoservices.ign.fr/
 Building footprint shapefiles for Turkey / Izmir were obtained from the HERE Maps database → https://developer.here.com/
 📌 Due to licensing restrictions, the raw imagery and shapefile data cannot be shared in this repository, but researchers can obtain them officially from the respective providers.
+
+Several deep learning architectures were evaluated for building footprint extraction:
+
+*U-Net++ → An enhanced version of U-Net with nested skip connections, providing more accurate segmentation.
+*DeepLabV3+ → Employs atrous convolution and Atrous Spatial Pyramid Pooling (ASPP) for effective multi-scale feature learning.
+*PSPNet → Utilizes a Pyramid Pooling Module to capture contextual information and improve segmentation across varying scales.
+
+These models were compared in terms of accuracy and further analyzed using explainable AI (XAI) techniques to better understand their decision-making processes.
