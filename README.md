@@ -4,13 +4,13 @@
 ---
 
 ## 📑 İçindekiler / Table of Contents  
-- [🚀 Kısa Özet / Summary](#-kısa-özet--summary)  
-- [🛰️ Kullanılan Veri / Data Used](#-kullanılan-veri--data-used)  
-- [🧠 Modeller / Models](#-modeller--models)  
-- [🔎 XAI Yöntemleri / XAI-Methods](#-xai-yöntemleri--xai-methods)  
-- [⚙️ Nasıl Kullanılır? / How to Use](#-nasıl-kullanılır--how-to-use)  
-- [📊 Sonuçlar / Results](#-sonuçlar--results)  
-- [📜 Lisans / License](#-lisans--license)  
+- [🚀 Kısa Özet / Summary](#-kısa-özet--summary)   
+- [🛰️ Kullanılan Veri / Data Used](#-kullanılan-veri--data-used)
+- [🧠 Modeller / Models](#-modeller--models)
+- [🔎 XAI Yöntemleri / XAI-Methods](#-xai-yöntemleri--xai-methods)
+- [⚙️ Nasıl Kullanılır / How to Use](#-nasıl-kullanılır--how-to-use)
+- [📊 Sonuçlar / Results](#-sonuçlar--results)
+
 
 ---
 
@@ -71,18 +71,18 @@ To analyze the decision-making processes of the models, the following XAI method
 
 ---
 
-## ⚙️ Nasıl Kullanılır? / How to Use  
+## ⚙️ Nasıl Kullanılır / How to Use  
 
-```bash
-# 1. Repo klonlama / Clone repo
-git clone https://github.com/username/BuildingFootprint-XAI.git
-cd BuildingFootprint-XAI
+> ⏳ **Not / Note:** Bu proje kapsamında kodlar ve detaylı yönergeler **yakında paylaşılacaktır**.  
+> ⏳ **Note:** Codes and detailed instructions will be **coming soon** in this repository.  
 
-# 2. Gerekli paketlerin kurulumu / Install requirements
-pip install -r requirements.txt
 
-# 3. Eğitim / Training
-python train.py --model unetplusplus --data_path ./data --epochs 100
+---
 
-# 4. Tahmin / Inference
-python predict.py --model deeplabv3plus --input ./samples/sample.png --output ./results/output.png
+## 📊 Sonuçlar / Results  
+
+Örnek doğruluk metrikleri ve görselleştirmeler burada paylaşılacaktır.  
+Example accuracy metrics and visualizations will be shared here.  
+
+> 📌 **Not / Note:** Tüm kodlar ve ayrıntılı sonuçlar, gerekli düzenlemeler tamamlandıktan ve ilgili yayın süreci sonuçlandıktan sonra bu depoya eklenecektir.  
+> 📌 **Note:** All codes and detailed results will be made available in this repository once the necessary refinements are completed and the related publication process is finalized.  
