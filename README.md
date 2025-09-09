@@ -51,7 +51,7 @@ Two datasets were utilized in this project: **SPOT 6/7 (France, Pyrénées-Orien
 | **U-Net++**    | Gelişmiş U-Net, skip-connection yapısıyla daha hassas segmentasyon sağlar. | Enhanced U-Net with nested skip connections for more accurate segmentation. |
 | **DeepLabV3+** | Atrous konvolüsyon + ASPP ile çok ölçekli öğrenme sağlar. | Employs atrous convolution and Atrous Spatial Pyramid Pooling (ASPP) for multi-scale learning. |
 | **PSPNet**     | Pyramid Pooling ile bağlamsal bilgi yakalar. | Utilizes Pyramid Pooling Module to capture contextual information. |
-| **DeepSwinLite** | Projede geliştirilen hafif Swin Transformer tabanlı model. | Lightweight Swin Transformer-based model developed within this project. |  
+
 
 ---
 
