@@ -27,20 +27,41 @@ This project, supported by TÜBİTAK 1002, focuses on the automatic extraction o
 ## 🛰️ Kullanılan Veri / Data Used  
 
 🇹🇷 **Türkçe:**  
-Projede iki farklı veri seti kullanılmıştır: **SPOT 6/7 (Fransa, Pyrénées-Orientales)** ve **MAXAR (Türkiye, İzmir)**. Bu veriler çok yüksek çözünürlüklü olup farklı kentsel dokuları temsil etmektedir. Görüntülerin yanı sıra, bina sınırlarını içeren **shapefile (vektör) verileri** de kullanılmıştır:  
+Projede iki farklı veri seti kullanılmıştır:  
 
-- Fransa / Pyrénées-Orientales bina sınırları shapefile → *IGN (Institut National de l'Information Géographique et Forestière)* → [https://geoservices.ign.fr/](https://geoservices.ign.fr/)  
-- Türkiye / İzmir bina sınırları shapefile → *HERE Maps* veritabanı → [https://developer.here.com/](https://developer.here.com/)  
+- **SPOT 6/7 (Fransa, Pyrénées-Orientales)**  
+  - Sağlayıcı: *Airbus / IGN* → [https://www.intelligence-airbusds.com/imagery/spot-67](https://www.intelligence-airbusds.com/imagery/spot-67)  
+  - Mekânsal çözünürlük: 1.5 m (pansharpened ≈ 0.5 m)  
+  - Alım yılı: 2016  
+  - Bina sınırları shapefile: *IGN* → [https://geoservices.ign.fr/](https://geoservices.ign.fr/)  
 
-> 📌 **Not:** Lisans kısıtları nedeniyle ham görüntüler ve shapefile verileri bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler.  
+- **MAXAR (Türkiye, İzmir)**  
+  - Sağlayıcı: *Maxar Technologies* → [https://www.maxar.com/](https://www.maxar.com/)  
+  - Mekânsal çözünürlük: 0.3 m  
+  - Alım yılı: 2020  
+  - Bina sınırları shapefile: *HERE Maps* → [https://developer.here.com/](https://developer.here.com/)  
+
+> 📌 **Not:** Görüntüler ve shapefile verileri lisans kısıtları nedeniyle bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler. Alternatif olarak, kamuya açık veri setleri (örn. [Massachusetts Buildings](https://www.cs.toronto.edu/~vmnih/data/), [WHU Building Dataset](http://gpcv.whu.edu.cn/data/)) ile kodlar yeniden üretilebilir.  
+
+---
 
 🇬🇧 **English:**  
-Two datasets were utilized in this project: **SPOT 6/7 (France, Pyrénées-Orientales)** and **MAXAR (Turkey, Izmir)**. These very high-resolution datasets represent diverse urban patterns. In addition to imagery, **shapefile (vector) building footprint data** were also used:  
+Two datasets were used in this project:  
 
-- France / Pyrénées-Orientales building footprints → *IGN (Institut National de l'Information Géographique et Forestière)* → [https://geoservices.ign.fr/](https://geoservices.ign.fr/)  
-- Turkey / Izmir building footprints → *HERE Maps* database → [https://developer.here.com/](https://developer.here.com/)  
+- **SPOT 6/7 (France, Pyrénées-Orientales)**  
+  - Provider: *Airbus / IGN* → [https://www.intelligence-airbusds.com/imagery/spot-67](https://www.intelligence-airbusds.com/imagery/spot-67)  
+  - Spatial resolution: 1.5 m (pansharpened ≈ 0.5 m)  
+  - Acquisition year: 2016  
+  - Building footprints shapefile: *IGN* → [https://geoservices.ign.fr/](https://geoservices.ign.fr/)  
 
-> 📌 **Note:** Due to licensing restrictions, the raw imagery and shapefile data cannot be shared in this repository. Researchers can obtain them officially from the respective providers.  
+- **MAXAR (Turkey, Izmir)**  
+  - Provider: *Maxar Technologies* → [https://www.maxar.com/](https://www.maxar.com/)  
+  - Spatial resolution: 0.3 m  
+  - Acquisition year: 2020  
+  - Building footprints shapefile: *HERE Maps* → [https://developer.here.com/](https://developer.here.com/)  
+
+> 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers. For reproducibility, codes are also compatible with open datasets such as [Massachusetts Buildings](https://www.cs.toronto.edu/~vmnih/data/) and [WHU Building Dataset](http://gpcv.whu.edu.cn/data/).  
+
 
 ---
 
