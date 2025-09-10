@@ -30,18 +30,18 @@ This project, supported by TÜBİTAK 1002, focuses on the automatic extraction o
 Projede iki farklı veri seti kullanılmıştır:  
 
 - **SPOT 6/7 (Fransa, Pyrénées-Orientales)**  
-  - Sağlayıcı: *Airbus / IGN* → [https://www.intelligence-airbusds.com/imagery/spot-67](https://www.intelligence-airbusds.com/imagery/spot-67)  
+  - Sağlayıcı: *Airbus / IGN* → [https://space-solutions.airbus.com/imagery/sample-imagery/spot-2-ortho-pyrenees-orientales-france-july-2023/](https://space-solutions.airbus.com/imagery/sample-imagery/spot-2-ortho-pyrenees-orientales-france-july-2023/)  
   - Mekânsal çözünürlük: 1.5 m (pansharpened ≈ 0.5 m)  
   - Alım yılı: 2016  
-  - Bina sınırları shapefile: *IGN* → [https://geoservices.ign.fr/](https://geoservices.ign.fr/)  
+  - Bina sınırları shapefile: *IGN* → [https://thisme.cines.teledetection.fr/home](https://thisme.cines.teledetection.fr/home)  
 
 - **MAXAR (Türkiye, İzmir)**  
-  - Sağlayıcı: *Maxar Technologies* → [https://www.maxar.com/](https://www.maxar.com/)  
+  - Sağlayıcı: *Maxar Technologies* → [https://www.maxar.com/open-data/turkey-earthquake](https://www.maxar.com/open-data/turkey-earthquake)  
   - Mekânsal çözünürlük: 0.3 m  
   - Alım yılı: 2020  
-  - Bina sınırları shapefile: *HERE Maps* → [https://developer.here.com/](https://developer.here.com/)  
+  - Bina sınırları shapefile: *HERE Maps* → [https://www.here.com/developer/sample-map-data](https://www.here.com/developer/sample-map-data)  
 
-> 📌 **Not:** Görüntüler ve shapefile verileri lisans kısıtları nedeniyle bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler. Alternatif olarak, kamuya açık veri setleri (örn. [Massachusetts Buildings](https://www.cs.toronto.edu/~vmnih/data/), [WHU Building Dataset](http://gpcv.whu.edu.cn/data/)) ile kodlar yeniden üretilebilir.  
+> 📌 **Not:** Görüntüler ve shapefile verileri lisans kısıtları nedeniyle bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler.
 
 ---
 
@@ -49,16 +49,16 @@ Projede iki farklı veri seti kullanılmıştır:
 Two datasets were used in this project:  
 
 - **SPOT 6/7 (France, Pyrénées-Orientales)**  
-  - Provider: *Airbus / IGN* → [https://www.intelligence-airbusds.com/imagery/spot-67](https://www.intelligence-airbusds.com/imagery/spot-67)  
+  - Provider: *Airbus / IGN* → [https://space-solutions.airbus.com/imagery/sample-imagery/spot-2-ortho-pyrenees-orientales-france-july-2023/](https://space-solutions.airbus.com/imagery/sample-imagery/spot-2-ortho-pyrenees-orientales-france-july-2023/)  
   - Spatial resolution: 1.5 m (pansharpened ≈ 0.5 m)  
   - Acquisition year: 2016  
-  - Building footprints shapefile: *IGN* → [https://geoservices.ign.fr/](https://geoservices.ign.fr/)  
+  - Building footprints shapefile: *IGN* → [https://thisme.cines.teledetection.fr/home](https://thisme.cines.teledetection.fr/home)    
 
 - **MAXAR (Turkey, Izmir)**  
-  - Provider: *Maxar Technologies* → [https://www.maxar.com/](https://www.maxar.com/)  
+  - Provider: *Maxar Technologies* → [https://www.maxar.com/open-data/turkey-earthquake](https://www.maxar.com/open-data/turkey-earthquake)  
   - Spatial resolution: 0.3 m  
   - Acquisition year: 2020  
-  - Building footprints shapefile: *HERE Maps* → [https://developer.here.com/](https://developer.here.com/)  
+  - Building footprints shapefile: *HERE Maps* → [https://www.here.com/developer/sample-map-data](https://www.here.com/developer/sample-map-data)  
 
 > 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers. For reproducibility, codes are also compatible with open datasets such as [Massachusetts Buildings](https://www.cs.toronto.edu/~vmnih/data/) and [WHU Building Dataset](http://gpcv.whu.edu.cn/data/).  
 
