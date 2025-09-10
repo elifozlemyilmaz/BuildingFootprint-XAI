@@ -60,7 +60,7 @@ Two datasets were used in this project:
   - Acquisition year: 2020  
   - Building footprints shapefile: *HERE Maps* → [https://www.here.com/developer/sample-map-data](https://www.here.com/developer/sample-map-data)  
 
-> 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers. For reproducibility, codes are also compatible with open datasets such as [Massachusetts Buildings](https://www.cs.toronto.edu/~vmnih/data/) and [WHU Building Dataset](http://gpcv.whu.edu.cn/data/).  
+> 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers.
 
 
 ---
