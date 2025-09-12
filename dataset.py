@@ -7,8 +7,9 @@ Varsayım / Assumption:
 - Görüntüler: {root}/images/*.png
 - Maskeler : {root}/masks/*.png   (0=background, 1=building)
 - Eğitim/Doğrulama/Test listeleri opsiyonel txt dosyaları (image stem list).
+  Örn: lists/spot67_train.txt, lists/spot67_val.txt, lists/spot67_test.txt
+       lists/maxar_izmir_train.txt, ...
 """
-
 from __future__ import annotations
 from pathlib import Path
 from typing import Optional, List, Tuple
@@ -63,8 +64,10 @@ def make_dataset(name: str, root: str | Path, split: str="train",
     EN: Dataset factory.
     """
     name = name.lower()
+    if name not in {"spot67", "maxar_izmir"}:
+        raise ValueError(f"Unknown dataset name: {name} (expected 'spot67' or 'maxar_izmir')")
     # split list path (optional)
     sp = None
     if list_dir:
-        sp = Path(list_dir)/f"{name}_{split}.txt"  # e.g., lists/massachusetts_train.txt
+        sp = Path(list_dir)/f"{name}_{split}.txt"  # e.g., lists/spot67_train.txt
     return SegDataset(root=root, split_list=sp, size=size)
