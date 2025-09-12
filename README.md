@@ -102,8 +102,10 @@ To analyze the decision-making processes of the models, the following XAI method
 
 ## 📊 Sonuçlar / Results  
 
-- Örnek doğruluk metrikleri ve görselleştirmeler burada paylaşılacaktır.  
-- Example accuracy metrics and visualizations will be shared here.  
+🇹🇷 **Türkçe:**
+- Örnek doğruluk metrikleri ve görselleştirmeler burada paylaşılacaktır.
+> 📌 **Not:** Tüm kodlar ve ayrıntılı sonuçlar, gerekli düzenlemeler tamamlandıktan ve ilgili yayın süreci sonuçlandıktan sonra bu depoya eklenecektir.
 
-> 📌 **Not:** Tüm kodlar ve ayrıntılı sonuçlar, gerekli düzenlemeler tamamlandıktan ve ilgili yayın süreci sonuçlandıktan sonra bu depoya eklenecektir.  
+🇬🇧 **English:**  
+- Example accuracy metrics and visualizations will be shared here.  
 > 📌 **Note:** All codes and detailed results will be made available in this repository once the necessary refinements are completed and the related publication process is finalized.  
