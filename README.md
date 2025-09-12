@@ -94,18 +94,39 @@ To analyze the decision-making processes of the models, the following XAI method
 
 ## ⚙️ Nasıl Kullanılır / How to Use  
 
-> ⏳ **Not:** Bu proje kapsamında kodlar ve detaylı yönergeler **yakında paylaşılacaktır**.  
-> ⏳ **Note:** Codes and detailed instructions will be **coming soon** in this repository.  
+🇹🇷 Türkçe:
 
+- train.py dosyası ile modeller (U-Net++, DeepLabv3+, PSPNet) SPOT6/7 veya MAXAR_İzmir veri setlerinde eğitilir.
+- Eğitim sonucunda en iyi ağırlık dosyası ve özet metrikler kaydedilir.
+- infer_xai.py dosyası tek bir görsel veya klasör için tahmin ve XAI haritaları üretir.
+- eval_xai_metrics.py dosyası ile 3 XAI yönteminin (Saliency, IntegratedGradients, GradientShap) 10 farklı metriği hesaplanır.
+
+🇬🇧 English:
+
+- Models (U-Net++, DeepLabv3+, PSPNet) are trained on SPOT6/7 or MAXAR_İzmir datasets using train.py.
+- Training outputs include the best model weights and a summary of validation metrics.
+- infer_xai.py generates predictions and attribution maps for a single image or a folder.
+- eval_xai_metrics.py computes 10 different metrics for the 3 XAI methods (Saliency, IntegratedGradients, GradientShap).
 
 ---
 
 ## 📊 Sonuçlar / Results  
 
 🇹🇷 **Türkçe:**
-- Örnek doğruluk metrikleri ve görselleştirmeler burada paylaşılacaktır.
-> 📌 **Not:** Tüm kodlar ve ayrıntılı sonuçlar, gerekli düzenlemeler tamamlandıktan ve ilgili yayın süreci sonuçlandıktan sonra bu depoya eklenecektir.
+
+- Çalışmada iki farklı veri seti (SPOT6/7 ve MAXAR_İzmir) üzerinde bina çıkarımı yapılmıştır.
+- Üç derin öğrenme modeli (U-Net++, DeepLabv3+, PSPNet) karşılaştırılmış, doğruluk metrikleri olarak mIoU, Dice, Recall, Precision ve Accuracy raporlanmıştır.
+- Ayrıca üç farklı XAI yöntemi (Saliency, IntegratedGradients, GradientShap) uygulanmış ve her yöntem için 10 açıklanabilirlik metriği (Continuity, FaithfulnessEstimate, AUC, Sparseness, Complexity, RRA, RMA, FaithfulnessCorr, Infidelity, MPRT) hesaplanmıştır.
+- Bu değerlendirmeler, hem modellerin doğruluğunu hem de açıklanabilirlik kalitesini birlikte göstermektedir.
+- Örnek tahmin görselleri, XAI haritaları ve ayrıntılı tablolar yayın süreci tamamlandıktan sonra bu depoda paylaşılacaktır.
 
 🇬🇧 **English:**  
-- Example accuracy metrics and visualizations will be shared here.  
-> 📌 **Note:** All codes and detailed results will be made available in this repository once the necessary refinements are completed and the related publication process is finalized.  
+
+- Building extraction experiments were conducted on two datasets: SPOT6/7 and MAXAR_İzmir.
+- Three deep learning models (U-Net++, DeepLabv3+, PSPNet) were compared, and validation metrics including mIoU, Dice, Recall, Precision, and Accuracy were reported.
+- In addition, three XAI methods (Saliency, IntegratedGradients, GradientShap) were applied, and for each method 10 explainability metrics (Continuity, FaithfulnessEstimate, AUC, Sparseness, Complexity, RRA, RMA, FaithfulnessCorr, Infidelity, MPRT) were computed.
+- These evaluations demonstrate both the segmentation accuracy and the quality of the model explanations.
+- Example predictions, attribution maps, and detailed quantitative results will be shared in this repository after the publication process is finalized.
+
+
+
