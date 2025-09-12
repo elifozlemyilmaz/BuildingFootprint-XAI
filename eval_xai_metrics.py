@@ -10,10 +10,10 @@ import numpy as np
 import torch
 from torch.utils.data import DataLoader
 from common import setup_logging, ensure_dir, to_device
-from datasets import make_dataset
+from dataset import make_dataset
 from models import build_model
 from xai import xai_dispatch
-from metrics import compute_all_metrics
+from xai_metrics import compute_all_metrics
 
 def main():
     ap = argparse.ArgumentParser()
