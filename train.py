@@ -13,9 +13,9 @@ from pathlib import Path
 import torch, torch.nn as nn
 from torch.utils.data import DataLoader
 
-from src.common import setup_logging, set_seed, ensure_dir, to_device, one_hot
-from src.datasets import make_dataset
-from src.models import build_model, logits_to_mask
+from common import setup_logging, set_seed, ensure_dir, to_device, one_hot
+from dataset import make_dataset
+from models import build_model, logits_to_mask
 
 # ------------------------ Dice Loss ------------------------ #
 class DiceLoss(nn.Module):
