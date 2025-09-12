@@ -134,7 +134,7 @@ To analyze the decision-making processes of the models, the following XAI method
 - Üç derin öğrenme modeli (U-Net++, DeepLabv3+, PSPNet) karşılaştırılmış, doğruluk metrikleri olarak mIoU, Dice, Recall, Precision ve Accuracy raporlanmıştır.
 - Ayrıca üç farklı XAI yöntemi (Saliency, IntegratedGradients, GradientShap) uygulanmış ve her yöntem için 10 açıklanabilirlik metriği (Continuity, FaithfulnessEstimate, AUC, Sparseness, Complexity, RRA, RMA, FaithfulnessCorr, Infidelity, MPRT) hesaplanmıştır.
 - Bu değerlendirmeler, hem modellerin doğruluğunu hem de açıklanabilirlik kalitesini birlikte göstermektedir.
-- Örnek tahmin görselleri, XAI haritaları ve ayrıntılı tablolar yayın süreci tamamlandıktan sonra bu depoda paylaşılacaktır.
+> 📌 **Not:** Örnek tahmin görselleri, XAI haritaları ve ayrıntılı tablolar yayın süreci tamamlandıktan sonra bu depoda paylaşılacaktır.
 
 🇬🇧 **English:**  
 
@@ -142,7 +142,7 @@ To analyze the decision-making processes of the models, the following XAI method
 - Three deep learning models (U-Net++, DeepLabv3+, PSPNet) were compared, and validation metrics including mIoU, Dice, Recall, Precision, and Accuracy were reported.
 - In addition, three XAI methods (Saliency, IntegratedGradients, GradientShap) were applied, and for each method 10 explainability metrics (Continuity, FaithfulnessEstimate, AUC, Sparseness, Complexity, RRA, RMA, FaithfulnessCorr, Infidelity, MPRT) were computed.
 - These evaluations demonstrate both the segmentation accuracy and the quality of the model explanations.
-- Example predictions, attribution maps, and detailed quantitative results will be shared in this repository after the publication process is finalized.
+> 📌 **Note:** Example predictions, attribution maps, and detailed quantitative results will be shared in this repository after the publication process is finalized.
 
 
 
