@@ -17,10 +17,10 @@
 ## 🚀 Kısa Özet / Summary  
 
 🇹🇷 **Türkçe:**  
-Bu proje, TÜBİTAK 1002 desteğiyle yürütülmüş olup, çok yüksek çözünürlüklü uydu ve hava görüntülerinden bina ayak izlerinin otomatik çıkarımı üzerine odaklanmaktadır. Çalışmada **U-Net++**, **DeepLabV3+**, **PSPNet** ve **DeepSwinLite** gibi güncel derin öğrenme modelleri uygulanmış; ayrıca açıklanabilir yapay zekâ (XAI) yöntemleri kullanılarak bu modellerin karar mekanizmaları incelenmiştir. Elde edilen sonuçlar, farklı kentsel dokularda performans farklılıklarını ortaya koymakta ve yöntemlerin **şehir planlama, afet yönetimi ve sürdürülebilir şehircilik** uygulamalarında güvenilir bir şekilde kullanılabileceğini göstermektedir.  
+Bu proje, TÜBİTAK 1002 desteğiyle yürütülmüş olup, çok yüksek çözünürlüklü uydu ve hava görüntülerinden bina ayak izlerinin otomatik çıkarımı üzerine odaklanmaktadır. Çalışmada **U-Net++**, **DeepLabV3+** ve **PSPNet** gibi güncel derin öğrenme modelleri uygulanmış; ayrıca açıklanabilir yapay zekâ (XAI) yöntemleri kullanılarak bu modellerin karar mekanizmaları incelenmiştir. Elde edilen sonuçlar, farklı kentsel dokularda performans farklılıklarını ortaya koymakta ve yöntemlerin **şehir planlama, afet yönetimi ve sürdürülebilir şehircilik** uygulamalarında güvenilir bir şekilde kullanılabileceğini göstermektedir.  
 
 🇬🇧 **English:**  
-This project, supported by TÜBİTAK 1002, focuses on the automatic extraction of building footprints from very high-resolution satellite and aerial imagery. State-of-the-art deep learning models such as **U-Net++**, **DeepLabV3+**, **PSPNet**, and **DeepSwinLite** were applied, and explainable artificial intelligence (XAI) techniques were employed to analyze the decision-making processes of these models. The results reveal performance differences across various urban patterns and demonstrate that the proposed approaches can be reliably used in applications such as **urban planning, disaster management, and sustainable city development**.  
+This project, supported by TÜBİTAK 1002, focuses on the automatic extraction of building footprints from very high-resolution satellite and aerial imagery. State-of-the-art deep learning models such as **U-Net++**, **DeepLabV3+** and **PSPNet** were applied, and explainable artificial intelligence (XAI) techniques were employed to analyze the decision-making processes of these models. The results reveal performance differences across various urban patterns and demonstrate that the proposed approaches can be reliably used in applications such as **urban planning, disaster management, and sustainable city development**.  
 
 ---
 
@@ -82,19 +82,19 @@ Two datasets were used in this project:
 Projede kullanılan modellerin karar mekanizmalarını analiz edebilmek için aşağıdaki XAI yöntemleri uygulanmıştır:  
 - **Saliency Maps** → Modelin en çok dikkate aldığı pikselleri gösterir.  
 - **GradientSHAP** → Gradyan tabanlı duyarlılık analizi ile girişin çıktıya etkisini ölçer.  
-- **Integrated Gradients (IG)** → Model kararını adım adım izleyerek özelliklerin önemini belirler.  
+- **Integrated Gradients** → Model kararını adım adım izleyerek özelliklerin önemini belirler.  
 
 🇬🇧 **English:**  
 To analyze the decision-making processes of the models, the following XAI methods were applied:  
 - **Saliency Maps** → Highlights which pixels the model focuses on.  
 - **GradientSHAP** → Gradient-based sensitivity analysis measuring input contributions.  
-- **Integrated Gradients (IG)** → Attributes importance to features by step-wise tracing of decisions.  
+- **Integrated Gradients** → Attributes importance to features by step-wise tracing of decisions.  
 
 ---
 
 ## ⚙️ Nasıl Kullanılır / How to Use  
 
-> ⏳ **Not / Note:** Bu proje kapsamında kodlar ve detaylı yönergeler **yakında paylaşılacaktır**.  
+> ⏳ **Not:** Bu proje kapsamında kodlar ve detaylı yönergeler **yakında paylaşılacaktır**.  
 > ⏳ **Note:** Codes and detailed instructions will be **coming soon** in this repository.  
 
 
@@ -102,8 +102,8 @@ To analyze the decision-making processes of the models, the following XAI method
 
 ## 📊 Sonuçlar / Results  
 
-Örnek doğruluk metrikleri ve görselleştirmeler burada paylaşılacaktır.  
-Example accuracy metrics and visualizations will be shared here.  
+- Örnek doğruluk metrikleri ve görselleştirmeler burada paylaşılacaktır.  
+- Example accuracy metrics and visualizations will be shared here.  
 
-> 📌 **Not / Note:** Tüm kodlar ve ayrıntılı sonuçlar, gerekli düzenlemeler tamamlandıktan ve ilgili yayın süreci sonuçlandıktan sonra bu depoya eklenecektir.  
+> 📌 **Not:** Tüm kodlar ve ayrıntılı sonuçlar, gerekli düzenlemeler tamamlandıktan ve ilgili yayın süreci sonuçlandıktan sonra bu depoya eklenecektir.  
 > 📌 **Note:** All codes and detailed results will be made available in this repository once the necessary refinements are completed and the related publication process is finalized.  
