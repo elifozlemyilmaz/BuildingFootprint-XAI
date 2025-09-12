@@ -39,7 +39,15 @@ Projede iki farklı veri seti kullanılmıştır:
   - Sağlayıcı: *Maxar Technologies* → [https://www.maxar.com/open-data/turkey-earthquake](https://www.maxar.com/open-data/turkey-earthquake)  
   - Mekânsal çözünürlük: 0.3 m  
   - Alım yılı: 2020  
-  - Bina sınırları shapefile: *HERE Maps* → [https://www.here.com/developer/sample-map-data](https://www.here.com/developer/sample-map-data)  
+  - Bina sınırları shapefile: *HERE Maps* → [https://www.here.com/developer/sample-map-data](https://www.here.com/developer/sample-map-data)
+ 
+- **Ön-işleme adımları:**
+
+  - Ortofoto ve shapefile verilerinin projeksiyon dönüşümü ve hizalanması
+  - Bina shapefile’larının raster maske formatına dönüştürülmesi
+  - Görüntülerin 512×512/256x256 yamalara bölünmesi (sliding window)
+  - Eğitim, doğrulama ve test için ayrı listeler (.txt) ile veri bölme
+  - Normalizasyon ve veri artırma (rotasyon, çevirme vb.) işlemleri
 
 > 📌 **Not:** Görüntüler ve shapefile verileri lisans kısıtları nedeniyle bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler.
 
@@ -59,6 +67,14 @@ Two datasets were used in this project:
   - Spatial resolution: 0.3 m  
   - Acquisition year: 2020  
   - Building footprints shapefile: *HERE Maps* → [https://www.here.com/developer/sample-map-data](https://www.here.com/developer/sample-map-data)  
+
+- **Preprocessing steps:**
+
+  - Projection alignment between imagery and shapefiles
+  - Conversion of building shapefiles into raster masks
+  - Splitting images into 512×512 patches (sliding window)
+  - Creating train/validation/test splits with .txt lists
+  - Applying normalization and data augmentation (rotation, flipping, etc.)
 
 > 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers.
 
