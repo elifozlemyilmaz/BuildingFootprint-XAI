@@ -49,7 +49,7 @@ Projede iki farklı veri seti kullanılmıştır:
   - Eğitim, doğrulama ve test için ayrı listeler (.txt) ile veri bölme
   - Normalizasyon ve veri artırma (rotasyon, çevirme vb.) işlemleri
 
-> 📌 **Not:** Görüntüler ve shapefile verileri lisans kısıtları nedeniyle bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler.
+> 📌 **Not:** Görüntüler ve shapefile verileri lisans kısıtları nedeniyle bu repoda paylaşılamamaktadır. Araştırmacılar ilgili sağlayıcılardan resmi olarak temin edebilirler. Bununla birlikte, **akademik araştırma taleplerinde**, veri sağlayıcı kuruluşların lisans koşullarına riayet edilmesi şartıyla, proje kapsamında türetilmiş veri setleri ilgilenen araştırmacılarla paylaşılabilecektir. Bu yaklaşım, hem lisans yükümlülüklerine uyumu garanti altına almakta hem de proje çıktılarının daha geniş bir araştırmacı kitlesi tarafından değerlendirilebilmesini sağlamaktadır.
 
 ---
 
@@ -76,7 +76,7 @@ Two datasets were used in this project:
   - Creating train/validation/test splits with .txt lists
   - Applying normalization and data augmentation (rotation, flipping, etc.)
 
-> 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers.
+> 📌 **Note:** Due to licensing restrictions, imagery and shapefile data are not shared in this repository. Researchers can obtain them from the providers. However, **for academic research requests**, derived datasets generated within the scope of this project may be shared with interested researchers, provided that the licensing terms of the data providers are strictly respected. This approach ensures compliance with licensing obligations while enabling a broader community of researchers to benefit from and build upon the project outcomes.  
 
 
 ---
